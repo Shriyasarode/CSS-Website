@@ -14,7 +14,7 @@
   padding: 2rem 9%;
   background-color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   z-index: 1000;
 }
@@ -28,7 +28,7 @@
   color: #ffffff;
   font-size: 1.7rem;
   margin-left: 4rem;
-  justify-content: space-between;
+  justify-content: right;
   width: 100%;
 }
 
@@ -98,4 +98,81 @@
 
 .about-div pre {
   font-size: 1rem;
+}
+
+.about-div .btn {
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  font-size: 1.5rem;
+  background-color: #0ef;
+  box-shadow: 0 0 1rem #0ef;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Contact Page */
+
+.contact {
+  margin-top: 5.7rem;
+  background-color: #323946;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.contact form {
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  border: 2px solid black;
+  margin: 0.7rem 0;
+  transition: all 0.3s ease;
+}
+
+.contact form .input-box input {
+  width: 49%;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form .btn {
+  margin-top: 1.5rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  background-color: #0ef;
+  box-shadow: 0 0 1rem #0ef;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
 }
